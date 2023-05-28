@@ -1,0 +1,150 @@
+/*body{
+    color: tomato;  
+}
+.logo-img{
+    
+} */
+
+h1 {
+    color: black;
+}
+
+#ozonoterapia h2 {
+    color: rgb(153, 119, 143);
+}
+
+/* selecciona todos los elementos <h2> que están dentro de un elemento con el id ozonoterapia */
+p.diferente {
+    color: rgb(0, 107, 170);
+}
+
+p.uno {
+    color: chartreuse;
+}
+
+div p {
+    color: darkgreen;
+}
+
+div h2,
+div h3 {
+    color: darkred;
+}
+
+* {
+    font-size: 24px;
+    /*  color: black; */
+}
+
+.industria {
+    /* border: 5px purple groove; */
+    /* dotted, dashed, solid, groove, iset, outser, none, hidden*/
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+
+
+#uso-domestico {
+    background-image: url('img/domestico.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    /* background-size: cover;
+    tambien ayuda a la responsibidad de la pagina*/
+}
+
+.beneficios {
+    background-color: aqua;
+    margin: 12px 30px;
+    padding: 50px;
+    border: solid 1px black;
+}
+
+.covid {
+
+    background-color: rgba(184, 134, 11, 0.6);
+    height: 300px;
+    width: 600px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.texto {
+    font-family: 'pangolin';
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 3px 6px 5px greenyellow;
+}
+
+/* links */
+/*vamos a usar los links que se encuentran en header para aplicarles diferentes estiloz*/
+
+a:link{
+    color: darkgreen;
+}
+
+/* este selector indica a css que queremos seleccionar cuando el link no ha sido visitado*/
+a:visited{
+   color: blueviolet;
+} 
+
+/* este selector  aplica este estilo a los links que ya han sido visitados*/
+a:hover{
+    color: aqua;
+}
+
+/* este selector hace que el link cambie de color cuando pasamos el cursor sobre en link*/
+a:active{
+    color: darkorange;
+}
+
+/* este  seletor le da este color al link cuando lo vamos a accionar*/
+ul{
+    background-color: rgba(38, 201, 174, 0.4);
+    list-style-type: georgian;
+    padding-left: 2px;
+    /*list-style-position: inside;*/
+}
+
+table{
+    width:  100%;
+    border-collapse: collapse;
+}
+
+th, th{
+    border: solid 1px rgb(0, 0, 0);
+}
+
+th{
+    background-color: blueviolet;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: rgb(140, 167, 168);
+}
+
+tr:hover{
+    background-color: rgb(22, 126, 41);
+    cursor: grab;}
+
+span{
+    display: block;
+    max-width: 700px;
+    background-color: rgb(208, 226, 43);
+}
+.inline{
+    display: inline;
+}
+/*.none1{
+    visibility: hidden;
+}
+.none2{
+    display: none;
+}*/ 
+#position{
+    position: relative; /* fixed / absolute / sticky*/
+    left: 80px;
+    top: 50px;
+}
